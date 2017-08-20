@@ -1,6 +1,5 @@
 # webapp
 mlenv/
-migrations/
 .idea/
 
 # Byte-compiled / optimized / DLL files
