@@ -41,8 +41,8 @@ class churn_data_from_user(db.Model):
     Intl_Calls = Column(Integer)
     CustServ_Calls = Column(Integer)
 
-    def __init__(self, Account_Length):
-        self.Account_Length = Account_Length
+    # def __init__(self, Account_Length):
+    #     self.Account_Length = Account_Length
 
     def __repr__(self):
         return '<Account_Length {}>'.format(self.Account_Length)
